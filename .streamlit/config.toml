@@ -1,6 +1,3 @@
-[python]
-version = "3.11"
-
 [theme]
 primaryColor = "#FF6F61"
 backgroundColor = "#F8F9FB"
