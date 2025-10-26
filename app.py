@@ -28,7 +28,7 @@ EMOTION_LABELS: Tuple[str, ...] = (
     "Neutral",
 )
 
-MODEL_PATH = Path(__file__).resolve().parent / "fer2013_emotion_cnn.h5"
+MODEL_PATH = Path(__file__).resolve().parent / "fer2013_cnn_model.h5"
 
 
 def _normalise_inbound_nodes(layer: Dict[str, Any]) -> None:
